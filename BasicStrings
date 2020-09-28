@@ -1,0 +1,13 @@
+using System;
+
+
+class MainClass {
+  public static void Main (string[] args) {
+    string firstFriend = "Bill";
+    string secondFriend = "Carolyn";
+    Console.WriteLine ($"My friends are {firstFriend} and {secondFriend}");
+
+    Console.WriteLine ($"The name {firstFriend} has  {firstFriend.Length} letters.");
+    Console.WriteLine ($"The name {secondFriend} has  {secondFriend.Length} letters.");
+  }
+}
